@@ -1,6 +1,8 @@
 # 🚀 Code Readability & Bug Checker
 
+<div align="center">
 ![GUI Preview](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3NiZzk3Y2R2Z2R3cmg2bzk3ZGhydTBtaDYybXRyYWk0dXN2d3lxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbnUQpnihPSIgIXuZv/giphy.gif)
+</div>
 
 ## 🌟 About the Project
 This **Code Readability & Bug Checker** helps developers analyze their Python code for readability, bugs, and complexity. The tool provides insights into your code's structure, detects potential issues, and even displays execution output!
