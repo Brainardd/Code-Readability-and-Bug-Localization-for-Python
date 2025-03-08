@@ -1,58 +1,28 @@
-🚀 Code Readability & Bug Checker
+# 🚀 Code Readability & Bug Checker
 
+![GUI Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWZ5bm41OHBuMGZ5dTVzZzI0ZG10N25uN3N5NmZld2JhaGcyMGN0bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D6yMCXQjFkQGNT5JgD/giphy.gif)
 
+## 🌟 About the Project
+This **Code Readability & Bug Checker** helps developers analyze their Python code for readability, bugs, and complexity. The tool provides insights into your code's structure, detects potential issues, and even displays execution output!
 
-🌟 About the Project
+## 🎯 Features
+- ✅ **Code Readability Prediction** (AI-based analysis)
+- 🐛 **Bug Detection** (Pylint integration)
+- 📊 **Code Complexity Measurement** (Execution time & memory usage)
+- 📜 **Scrollable Input, Analysis, and Output Sections**
+- 💡 **Full-Screen GUI** for better user experience
 
-This Code Readability & Bug Checker helps developers analyze their Python code for readability, bugs, and complexity. The tool provides insights into your code's structure, detects potential issues, and even displays execution output!
+## 🖥️ How It Works
+1. ✍️ **Paste Your Code** in the input box
+2. 🔍 **Click \"Analyze Code\"** to check for readability, bugs, and complexity
+3. 📋 **View Analysis Results** on the left panel
+4. ⚡ **See Execution Output** on the right panel
 
-🎯 Features
+## 📸 Screenshot
+![App Screenshot](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVkdTVjcjB4bHpxN2NuZXN5NnM3aHIydjFndHZibDN1OHQ3M2h6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oriO0OEd9QIDdllqo/giphy.gif)
 
-✅ Code Readability Prediction (AI-based analysis)
-
-🐛 Bug Detection (Pylint integration)
-
-📊 Code Complexity Measurement (Execution time & memory usage)
-
-📜 Scrollable Input, Analysis, and Output Sections
-
-💡 Full-Screen GUI for better user experience
-
-🖥️ How It Works
-
-✍️ Paste Your Code in the input box
-
-🔍 Click "Analyze Code" to check for readability, bugs, and complexity
-
-📋 View Analysis Results on the left panel
-
-⚡ See Execution Output on the right panel
-
-📸 Screenshot
-
-
-
-🛠️ Installation & Setup
-
-Clone this repository
-
-git clone https://github.com/yourusername/code-readability-checker.git
-cd code-readability-checker
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the application
-
-python app.py
-
-📚 Dependencies
-
-tkinter - GUI Framework
-
-pylint - Code Analysis
-
-tensorflow - AI Model for Readability
-
-numpy - Data Processing
+## 🛠️ Installation & Setup
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/yourusername/code-readability-checker.git
+   cd code-readability-checker
