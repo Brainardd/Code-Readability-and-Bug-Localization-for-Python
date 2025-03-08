@@ -19,10 +19,8 @@ This **Code Readability & Bug Checker** helps developers analyze their Python co
 4. ⚡ **See Execution Output** on the right panel
 
 ## 📸 Screenshot
-![App Screenshot](
 ![image](https://github.com/user-attachments/assets/cd9dd711-ca33-4158-aae0-b58d5c653baf)
 ![image](https://github.com/user-attachments/assets/c3d6edc4-4d93-4226-8945-16d9f71cf02c)
-)
 
 ## 🛠️ Installation & Setup
 1. **Clone this repository**
