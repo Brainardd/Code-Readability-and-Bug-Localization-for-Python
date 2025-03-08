@@ -1,44 +1,58 @@
-# 🚀 Code Readability & Bug Localization for Python 🐍  
+🚀 Code Readability & Bug Checker
 
-<div align="center">
-  <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="250px">
-</div>
 
-## 🌟 About the Project  
-This project tackles **code readability classification** and **bug localization** in Python programs! 🧑‍💻✨  
 
-🔹 **Code Readability** 📖: Using a **Convolutional Neural Network (CNN)** to predict how readable a Python snippet is.  
-🔹 **Bug Localization** 🐛: Leveraging **pylint** to identify and analyze potential issues in Python code.  
+🌟 About the Project
 
-By combining **deep learning** with **static code analysis**, this project helps developers write cleaner and more maintainable code! 🚀  
+This Code Readability & Bug Checker helps developers analyze their Python code for readability, bugs, and complexity. The tool provides insights into your code's structure, detects potential issues, and even displays execution output!
 
----
+🎯 Features
 
-## 🛠️ Technologies Used  
-🔹 **Python** 🐍  
-🔹 **TensorFlow/Keras** (for CNN Readability Model)  
-🔹 **pylint** (for Static Code Analysis)  
-🔹 **Pandas & NumPy** (for Data Processing)  
-🔹 **Matplotlib/Seaborn** (for Visualizations)  
+✅ Code Readability Prediction (AI-based analysis)
 
----
+🐛 Bug Detection (Pylint integration)
 
-## 🎥 Demo (Live in Action!)  
-<div align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="500px">
-</div>  
+📊 Code Complexity Measurement (Execution time & memory usage)
 
----
+📜 Scrollable Input, Analysis, and Output Sections
 
-## 📂 How It Works  
-✅ **Step 1**: Preprocess Python code snippets  
-✅ **Step 2**: Train CNN to classify readability  
-✅ **Step 3**: Use pylint to detect bugs and warnings  
-✅ **Step 4**: Combine insights for better code improvement  
+💡 Full-Screen GUI for better user experience
 
----
+🖥️ How It Works
 
-## 📌 Why This Matters?  
-🌟 Helps developers **write readable code**  
-🐛 Identifies **bugs early**  
-📊 Provides **data-driven insights** into code quality  
+✍️ Paste Your Code in the input box
+
+🔍 Click "Analyze Code" to check for readability, bugs, and complexity
+
+📋 View Analysis Results on the left panel
+
+⚡ See Execution Output on the right panel
+
+📸 Screenshot
+
+
+
+🛠️ Installation & Setup
+
+Clone this repository
+
+git clone https://github.com/yourusername/code-readability-checker.git
+cd code-readability-checker
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the application
+
+python app.py
+
+📚 Dependencies
+
+tkinter - GUI Framework
+
+pylint - Code Analysis
+
+tensorflow - AI Model for Readability
+
+numpy - Data Processing
