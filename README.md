@@ -14,13 +14,13 @@ This **Code Readability & Bug Checker** helps developers analyze their Python co
 - **Scrollable Input, Analysis, and Output Sections**
 - **Full-Screen GUI** for better user experience
 
-## 🖥How It Works
+## How It Works
 1. **Paste Your Code** in the input box
 2. **Click \"Analyze Code\"** to check for readability, bugs, and complexity
 3. **View Analysis Results** on the left panel
 4. **See Execution Output** on the right panel
 
-## 📸 Screenshot
+## Screenshot
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cd9dd711-ca33-4158-aae0-b58d5c653baf" width="45%">
