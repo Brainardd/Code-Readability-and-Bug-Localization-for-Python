@@ -43,9 +43,9 @@ def predict_readability(code_snippet):
     Predicts if the given code snippet is readable.
     """
     try:
-        ast.parse(code_snippet)
+        ast.parse(code_snippet)  # Only checks syntax validity, not correctness
     except SyntaxError:
-        return "❌UNREADABLE❌"
+        return "❌UNREADABLE❌"  # Mark as unreadable if the syntax is completely broken
     
     cleaned_code = clean_python_code(code_snippet)
     sequence = tokenizer.texts_to_sequences([cleaned_code])
@@ -54,7 +54,8 @@ def predict_readability(code_snippet):
     prediction = model.predict([padded_sequence])
     score = prediction[0][0]
     
-    return "✅READABLE✅" if score > 0.5 else "❌UNREADABLE❌"
+    return "✅READABLE✅" if score > 0.5 else "⚠️MAY BE HARD TO READ⚠️"
+
 
 def check_bugs(code):
     """Run pylint on the provided code snippet and return formatted results."""
@@ -73,12 +74,13 @@ def check_bugs(code):
         if "E" in output or "F" in output:
             return f"❌ Bugs Found:\n{output}"
         else:
-            return "✅ Code is clean! No major issues detected."
+            return "✅ No major issues detected."
 
     except FileNotFoundError:
         return "⚠️ Pylint is missing! Install it with: `pip install pylint`."
     except Exception as e:
         return f"⚠️ Error running Pylint: {str(e)}"
+
 
 def measure_complexity(code):
     """Measures execution time and memory usage of the given code."""
